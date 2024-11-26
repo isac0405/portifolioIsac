@@ -1,111 +1,44 @@
-/* Base Styles */
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Geral */
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #1E1E1E;
-  font-family: 'Poppins', sans-serif;
-  color: #EDEDED;
+    background-color: #1E1E1E;
+    font-family: 'Poppins', sans-serif;
 }
 
-.frame {
-  width: 1366px;
-  margin: 0 auto;
-  position: relative;
+/* Seções principais */
+.PortifLio, .Projetos, .DesignGrFico, .IsacNepomucenoDeOliveira, .UmEntusiastaDoDesignEFotografiaEmConstanteAprendizadoMeuTrabalhoRefleteUmaAbordagemPrTicaDemonstrandoMeuCompromissoComACriatividadeBemVindoAoMeuMundoDoDesign {
+    color: #F4D041;
 }
 
-.title {
-  text-align: center;
-  font-size: 169px;
-  font-weight: 700;
-  color: #F4D041;
-  margin-top: 50px;
+.Projetos, .DesignGrFico {
+    text-align: center;
+    font-size: 193px;
+    font-weight: 700;
 }
 
-.subtitle {
-  text-align: center;
-  font-size: 43px;
-  font-weight: 700;
-  color: #EDEDED;
-  margin-top: 20px;
+.IsacNepomucenoDeOliveira, .MeuNomeIsacNepomucenoDeOliveira, .Ol {
+    color: #EDEDED;
 }
 
-.divider {
-  width: 1311px;
-  height: 5px;
-  border-top: 5px solid #EDEDED;
-  margin: 40px auto;
+/* Projetos */
+img {
+    border-radius: 10px;
 }
 
-.line1 {
-  margin-top: 100px;
+/* Texto explicativo */
+.EstiloDescricao {
+    text-align: justify;
+    color: #EDEDED;
+    font-size: 32px;
+    font-weight: 700;
 }
 
-.line2 {
-  margin-top: 40px;
+/* Rodapé */
+.Rodape {
+    text-align: center;
+    color: #F4D041;
+    font-size: 90px;
+    font-weight: 700;
 }
-
-.section {
-  margin: 100px auto;
-  width: 80%;
-  text-align: center;
-}
-
-.section-title {
-  font-size: 193px;
-  font-weight: 700;
-  color: #F4D041;
-}
-
-.section-subtitle {
-  font-size: 107px;
-  font-weight: 700;
-  color: #EDEDED;
-  margin-top: 20px;
-}
-
-.description {
-  text-align: justify;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 30px;
-  margin-top: 20px;
-}
-
-.image {
-  width: 313px;
-  height: 316px;
-  margin-top: 30px;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-  .title {
-    font-size: 100px;
-  }
-
-  .subtitle {
-    font-size: 30px;
-  }
-
-  .divider {
-    width: 90%;
-  }
-
-  .section-title {
-    font-size: 120px;
-  }
-
-  .section-subtitle {
-    font-size: 80px;
-  }
-
-  .description {
-    font-size: 16px;
-  }
-
-  .image {
-    width: 200px;
-    height: auto;
-  }
-}
-
